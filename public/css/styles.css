@@ -1,7 +1,8 @@
 
   body {
-    background-color: honeydew
+
   }
+
   hr {
     border-style: none;
     border-top-style: dotted;
@@ -12,9 +13,70 @@
 
   h1 {
     color: darkslategray;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
   }
+
+  h2 {
+    color: darkslategray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+
+
   h3 {
       color: dimgray;
   }
 
-  img {height: 100px;}
+  .background-color {
+    display:block;
+    width: auto;
+    height: auto;
+    background-color: #678983;
+    overflow:auto;
+}
+/* this fills in a gap at the bottom */
+
+.footer {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 34px;
+  padding-left: 0px;
+  display:block;
+  width: auto;
+  height: auto;
+  background-color: #678983;
+  overflow:auto;
+}
+
+.display {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;}
+
+
+  .numberInputBox{
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    line-height: 1px;
+    width: 50px;
+  }
+
+  .container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 250px;
+    width: 350px;
+    height: 0px;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

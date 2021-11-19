@@ -43,7 +43,13 @@
 
            console.log(numberInput.value);
 
-           if (numberInput.value < 21) {
+           if (numberInput.value <= 0) {
+             alert("Please input a number between 1-20!!");
+             return
+
+           } else if  (numberInput.value < 21){
+
+
 
                //fibonacciGenerator
 
@@ -68,7 +74,8 @@
            } else {
              alert("Please input a number between 1-20!!")
            }
-           });
+         });
+
 
           </script>
           </div>
@@ -76,25 +83,25 @@
           <script type="text/javascript">
           </script>
 
-          <h2>
+          <h3>
 
 
            0 inputted is nothing, 1 inputted is [0], 2 inputted is [0, 1] <br>
-           <hr>
+           <br>
            3 inputted is [0, 1, 1], 4 inputted is [0, 1, 1, 2]<br>
-           <hr>
+            <br>
             5 inputted is [0, 1, 1, 2, 3], 6 inputted is [0, 1, 1, 2, 3, 5] <br>
-            <hr>
+            <br>
             What's happening here is, for example 6 inputted was [0, 1, 1, 2, 3, 5, 8]<br>
-            <hr>
+            <br>
             We can anticipate the next number for group 7 to be the last 2 added together <br>
-            <hr>
+            <br>
             Then stuck onto the back of the array 3 + 5 = 8 <br>
-            <hr>
+            <br>
             Therefore 7 inputted is [0, 1, 1, 2, 3, 5, 8], and there are 7 numbers in the array. <br>
 
 
-           </h2>
+          </h3>
            <br>
            <br>
            </div>

@@ -28,14 +28,17 @@
 
 
   h3 {
-      color: dimgray;
+    color: darkslategray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
 
   .background-color {
     display:block;
     width: auto;
     height: auto;
-    background-color: #678983;
+    background-color: #E6DDC4;
     overflow:auto;
 }
 /* this fills in a gap at the bottom */
@@ -48,9 +51,11 @@
   display:block;
   width: auto;
   height: auto;
-  background-color: #678983;
+  background-color: #E6DDC4;
   overflow:auto;
 }
+
+/* this fills in a gap at the bottom */
 
 .display {
     padding-top: 0px;
